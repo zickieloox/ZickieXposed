@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:layout_gravity="center"
+	android:padding="16dp"
+	android:orientation="vertical">
+
+	<Button
+		android:textColor="#00B8D4"
+		android:id="@+id/mainButton"
+		android:layout_centerHorizontal="true"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Install"
+		android:textSize="25sp"
+		android:padding="20dp"
+		android:layout_marginTop="40dp"/>
+
+	<TextView
+		android:id="@+id/mainTextView"
+		android:gravity="center"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:text="Auto Install Xposed For Remix OS"
+		android:textSize="22sp"
+		android:layout_below="@+id/mainButton"
+		android:textAlignment="center"
+		android:layout_marginTop="30dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+		android:ems="10"
+		android:textSize="20sp"
+		android:alpha="0.9"
+		android:layout_width="fill_parent"
+		android:layout_below="@id/mainTextView"
+		android:id="@+id/outputText"
+		android:textIsSelectable="false"
+		android:background="#212121"
+		android:visibility="invisible"/>
+	
+	<Button
+		android:textColor="#B71C1C"
+		android:id="@+id/rebootButton"
+		android:layout_centerHorizontal="true"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Hot Reboot"
+		android:layout_below="@+id/outputText"
+		android:textSize="25sp"
+		android:padding="20dp"
+		android:layout_marginTop="30dp"/>
+	
+	<TextView
+		android:id="@+id/rebootTextView"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:text="Reboot Remix OS without Turn off the computer"
+		android:gravity="center"
+		android:ems="15"
+		android:layout_below="@+id/rebootButton"
+		android:textColor="#B71C1C"
+		alpha="0.75"
+		android:textSize="20sp"
+		android:layout_marginTop="20dp"
+		android:textAlignment="center"/>
+	
+	<TextView
+		android:id="@+id/aboutTextView"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:gravity="center"
+		android:text="fb.com/ZickieLoox"
+		android:layout_marginTop="20dp"
+		android:textSize="18sp"
+		android:layout_below="@+id/rebootTextView"
+		android:textColor="#607D8B"/>
+		
+
+</RelativeLayout>
+

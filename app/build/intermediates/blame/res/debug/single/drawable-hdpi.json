@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Code\\ZickieXposed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "E:\\Code\\ZickieXposed\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Code\\Projects\\ZickieXposed\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "E:\\Code\\Projects\\ZickieXposed\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

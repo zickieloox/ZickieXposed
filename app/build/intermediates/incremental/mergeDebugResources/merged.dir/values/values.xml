@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Zickie Remix Xposed</string>
+    <string name="app_name">Zickie Xposed</string>
+    <style name="Holo" parent="@android:style/Theme.Holo">
+	</style>
+</resources>
